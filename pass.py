@@ -1,5 +1,5 @@
 import random
-charset = "abcdefghijklmnopqrstuvwxyz"
+charset = "abcdefghijklmnopqrstuvwxyzQWERTYUIOPASDFGHJKLZXCVBNM,./01234567890-=_+[];'<>?:{}!@#$%^&*()`~"
 def genPass(length):
     password = ""
     for i in range(length):
